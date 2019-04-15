@@ -11,7 +11,7 @@
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
-  <h2>CSS</h2>
+  <h2>위키백과에 나온 CSS정보</h2>
   <p><h2><span id=".EC.97.AD.EC.82.AC"></span><span class="mw-headline" id="역사">역사</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8&amp;action=edit&amp;section=1" title="부분 편집: 역사">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
 <p>CSS는 1994년 10월 10일, <a href="/w/index.php?title=%ED%95%98%EC%BD%A4_%EB%B9%84%EC%9B%80_%EB%A6%AC&amp;action=edit&amp;redlink=1" class="new" title="하콤 비움 리 (없는 문서)">하콤 비움 리</a>(Håkon Wium Lie)가 처음 제안하였다.<sup id="cite_ref-chss-proposal_2-0" class="reference"><a href="#cite_note-chss-proposal-2">&#91;2&#93;</a></sup>
 </p>
@@ -42,59 +42,6 @@
 <h3><span id=".EC.84.A0.EC.96.B8_.EB.B8.94.EB.A1.9D"></span><span class="mw-headline" id="선언_블록">선언 블록</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8&amp;action=edit&amp;section=9" title="부분 편집: 선언 블록">편집</a><span class="mw-editsection-bracket">]</span></span></h3>
 <p>선언 블록은 괄호로 이루어진 선언들의 목록으로 이루어진다. 각 선언은 그 자체가 프로퍼티, 콜론(&#160;: ), 값으로 구성된다. 한 블록 안에 여러 선언이 있으면, 세미콜론 (&#160;; )이 개개의 각 선언에 삽입되어야 한다.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup>
 </p>
-<h3><span id=".EC.9B.90.EC.B2.9C"></span><span class="mw-headline" id="원천">원천</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8&amp;action=edit&amp;section=10" title="부분 편집: 원천">편집</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>CSS 정보는 다양한 원천으로부터 제공받을 수 있다. 이러한 원천으로는 웹 브라우저, 사용자, 제작자가 될 수 있다. 제작자로부터의 정보는 더 나아가 인라인, 미디어 타입, 중요성, 셀렉터 특정, 규칙 순서, 상속, 프로퍼티 정의로 분류될 수 있다. CSS 스타일의 정보는 별도의 문서에 있을 수 있고, HTML 문서에 직접 추가할 수도 있다. 사용되는 출력 장치에 따라 다른 스타일을 적용할 수 있다. 이를테면 화면 버전은 인쇄 버전과 매우 다르므로 제작자는 각 매체에 적절한 표현 방식을 사용할 수 있다.
-</p>
-<table class="wikitable">
-<caption>CSS 우선 순위 스킴 (높은 순위에서 낮은 순위 순)
-</caption>
-<tbody><tr>
-<th>우선도</th>
-<th>CSS 원천의 종류</th>
-<th>설명
-</th></tr>
-<tr>
-<td>1</td>
-<td>중요성</td>
-<td>‘<code><code class="mw-highlight" dir="ltr"><span class="o">!</span><span class="nt">important</span></code></code>’은 이전의 우선 타입들을 덮어쓴다.
-</td></tr>
-<tr>
-<td>2</td>
-<td>인라인</td>
-<td>HTML 'style' 속성을 통해 HTML 요소에 적용되는 스타일
-</td></tr>
-<tr>
-<td>3</td>
-<td>미디어 타입</td>
-<td>미디어 특정 CSS가 정의되어 있지 않다면 프로퍼티 정의는 모든 미디어 타입에 적용된다.
-</td></tr>
-<tr>
-<td>4</td>
-<td>사용자 정의</td>
-<td>대부분의 브라우저가 접근성 기능을 갖추고 있다: 사용자 정의 CSS
-</td></tr>
-<tr>
-<td>5</td>
-<td>셀렉터 특정성</td>
-<td>특정 컨텍스트 셀렉터(<code><code class="mw-highlight" dir="ltr"><span class="p">#</span><span class="nn">heading</span> <span class="nt">p</span></code></code>)는 일반 정의를 덮어쓴다.
-</td></tr>
-<tr>
-<td>6</td>
-<td>규칙 순서</td>
-<td>마지막 규칙 선언은 가장 높은 우선 순위를 가진다.
-</td></tr>
-<tr>
-<td>7</td>
-<td>부모 상속</td>
-<td>프로퍼티를 지정하지 않으면, 부모 요소에 상속된다.
-</td></tr>
-<tr>
-<td>8</td>
-<td>HTML 문서 안에서의 CSS 프로퍼티 정의</td>
-<td>CSS 규칙 또는 CSS 인라인 스타일은 기본 브라우저 값을 덮어쓴다.
-</td></tr>
-<tr>
   </p>
-  출처:위키백과
 </body>
 </html>
